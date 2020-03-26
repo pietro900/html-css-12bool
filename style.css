@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.container{
+    max-width: 1170px;
+    margin: 50px;
+}
+
+.colorato{
+    height: 50px;
+    background-color: yellow;
+}
+
+.foglie{
+    height: 50px;
+    background-color: green;
+}
+
+.tronco{
+    height: 50px;
+    background-color: brown;
+}
+
+.red{
+    height: 50px;
+    background-color: red;
+}
+
+.conteiner::after{
+    content: "";
+    display: table;
+    clear: both;
+}
